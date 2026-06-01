@@ -1,0 +1,16 @@
+[package]
+name = "spationaute"
+version = "0.1.0"
+edition = "2024"
+authors = ["Arnaud Fréalle <arnaud.frealle@gmail.com>"]
+repository = "https://github.com/freallearn/spationaute"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+
